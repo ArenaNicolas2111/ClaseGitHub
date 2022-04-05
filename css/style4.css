@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{ background-color: pink;}
+header {background-color: pink;
+    font-family: fantasy;
+    }
+    header h1{ 
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 10px;
+        font-weight: 400;
+    font-size: 50px;
+    }
+
+.padre{ background-color: pink;
+    margin-top: 30px;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: nowrap; }
+body fieldset { text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 30px;}
+.susb{
+    margin-top: 50px;
+
+}
+body div li ul nav a h5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin: 50px;
+}
+ 

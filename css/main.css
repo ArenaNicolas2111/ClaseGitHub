@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+header {background-color: pink;
+font-family: fantasy;
+}
+header h1{ 
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 10px;
+    font-weight: 400;
+font-size: 50px;
+}
+.padre{
+    background-color: pink;
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+
+
+}
+.hijos{
+
+
+    margin: 5px;
+
+    background-color: pink;
+    text-align: center;
+    font-family: fantasy;
+    
+}
+.hijos h2{
+    text-decoration: none;
+}
+img{ 
+    background: no-repeat;
+}
+.img h3{
+    padding: 40px;
+    font-size: 50px;
+    font-family: fantasy;
+    margin: 10px;
+    background-color: pink;
+    text-align: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+.img2{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+.prg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+body div{
+    margin: 30px;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+    
+}
+.susb{
+    
+
+}
+body div li ul nav a h5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin: 50px;
+}
+ 
